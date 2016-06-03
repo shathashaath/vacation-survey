@@ -1,0 +1,24 @@
+.city-image {
+    width: 300px;
+    padding: 10px;
+}
+body {
+    background-image: url('../img/background.jpg');
+}
+label {
+    font-size: 15px;
+    font-weight: bold;
+}
+h1 {
+    color: #A32408;
+    font-size: 25px;
+    font-weight: bold;
+}
+button[type=submit] {
+    background: #A5C6F2;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.navbar-inverse .navbar-fnt {
+    color: #red;
+}
