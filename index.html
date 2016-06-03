@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.min.js">
+        < /script < script src = "js/scripts.js" >
+    </script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" charset="utf-8">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Your dream destination</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="survey">
+
+            <h1>1. How many times per year do you take a vacation?</h1>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="vacationTimes" value="1" checked> once
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="vacationTimes" value="2"> twice
+                </label>
+            </div>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="vacationTimes" value="3-5"> three-five
+                </label>
+            </div>
+
+            <h1>2. Do you consider yourself a tourist or a traveler?</h1>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Tourists" value="tourist" checked> Tourist
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Tourists" value="traveller"> Traveler
+                </label>
+            </div>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Tourists" value="idk"> What's the difference?
+                </label>
+            </div>
+
+            <h1>3. What mode of transportation do you prefer to use when reaching your destination?</h1>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="transportaionMode" value="air" checked> air
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="transportaionMode" value="car"> car
+                </label>
+            </div>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="transportaionMode" value="train"> train
+                </label>
+            </div>
+
+
+            <h1>4. Where is your favorite vacation destination?</h1>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="favoritePlace" value="beach" checked> Beach
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="favoritePlace" value="mountains"> Mountains
+                </label>
+            </div>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="favoritePlace" value="historic"> Historic
+                </label>
+            </div>
+
+            <h1>5. What are your favorite activities on vacation?</h1>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="favoriteActivities" value="attractions" checked> tourist attractions
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="favoriteActivities" value="shopping"> shopping
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="favoriteActivities" value="eating"> Eating
+                </label>
+            </div>
+            <div class="submit">
+                <button type="submit" class="btn">submit</button>
+            </div>
+        </form>
+        <div id="cities">
+            <p id="suggestions">
+            </p>
+            <div id="images">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
