@@ -19,6 +19,25 @@ button[type=submit] {
     border-radius: 5px;
     padding: 10px 15px;
 }
-.navbar-inverse .navbar-fnt {
-    color: #red;
+.navbar-inverse .navbar-nav > li > a {
+    color: red;
+    font-weight: bold;
+    font-size: 17px;
+}
+#nature {
+    width: 1500px;
+    height: 300px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+img {
+    width: 630px;
+    height: 420px;
+    padding: 15px;
 }
