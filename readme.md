@@ -1,4 +1,4 @@
-Here is my web-page http://shathashaath.github.io/shatha/
+Here is my web-page http://shathashaath.github.io/vacation-survey/
 # My personal webpage
 #### HTML,CSS  ,05.27.2016
 #### By **Shatha Shaath**
@@ -15,6 +15,8 @@ personal webpage using HTML and CSS to be the landing page for my web programmin
 * CSS
 * HTML
 * Bootstrap
+* JavaScript
+* JQuery
 
 
 ### Copyright (c) 2016 Copyright Holder All Rights Reserved.
