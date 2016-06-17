@@ -1,9 +1,9 @@
 Here is my web-page http://shathashaath.github.io/vacation-survey/
-# My personal webpage
-#### HTML,CSS  ,05.27.2016
+# vacation survey
+#### HTML,CSS,JavaScript and JQuery  ,05.27.2016
 #### By **Shatha Shaath**
 ## Description
-personal webpage using HTML and CSS to be the landing page for my web programming portfolio.links were added to enhacemy webpage.
+personal webpage using HTML and CSS to be the landing page for my web programming portfolio.links were added to enhace my webpage.
 
 
 ##Setup

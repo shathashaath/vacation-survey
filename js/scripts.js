@@ -1,10 +1,3 @@
-/*
-vacationTimes : 1, 2, 3-5
-transportaionMode: air, car, train
-favoritePlace: beach, mountains, historic
-favoriteActivities: shopping, eating, attractions
-tourists: traveller, tourist, idk
-*/
 
 function getCities(vacationTimes, tourists, transportaionMode, favoritePlace, favoriteActivities) {
   if (favoritePlace == "beach" && transportaionMode == "air") {
@@ -32,17 +25,17 @@ $(document).ready(function() {
   $("form#survey").submit(function(event) {
     event.preventDefault();
     var vacationTimes = $("input:radio[name=vacationTimes]:checked").val();
-    var Tourists = $("input:radio[name=Tourists]:checked").val();
+    var tourists = $("input:radio[name=Tourists]:checked").val();
     var transportaionMode = $("input:radio[name=transportaionMode]:checked").val();
     var favoritePlace = $("input:radio[name=favoritePlace]:checked").val();
     var favoriteActivities = $("input:radio[name=favoriteActivities]:checked").val();
     console.log("vacationTimes: " + vacationTimes);
-    console.log("Tourists: " + Tourists);
+    console.log("tourists: " + tourists);
     console.log("transportaionMode: " + transportaionMode);
     console.log("favoritePlace: " + favoritePlace);
     console.log("favoriteActivities: " + favoriteActivities);
-    var cities = getCities(vacationTimes, Tourists, transportaionMode, favoritePlace, favoriteActivities);
+    var cities = getCities(vacationTimes, tourists, transportaionMode, favoritePlace, favoriteActivities);
     showCities(cities);
-      
+
   });
 });
